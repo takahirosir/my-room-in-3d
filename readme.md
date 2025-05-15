@@ -14,6 +14,9 @@ Run this followed commands:
 # Install dependencies (only the first time)
 npm install
 
+# Due to version incompatibility issues
+npm install --save-dev cross-env
+
 # Run the local server at localhost:8080
 npm run dev
 
